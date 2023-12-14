@@ -1,0 +1,33 @@
+1. Code written in html file
+2. Purpose of Comments in HTML and Example:
+
+Comments in HTML are used to add notes and explanations to your code. These comments are not displayed on the webpage but are visible when you view the source code. This makes comments useful for:
+
+Improving code readability: Comments can explain the purpose of specific code sections, making it easier for others to understand and maintain your website.
+Marking temporary changes: You can use comments to "comment out" code that you're not currently using, allowing you to easily test different versions of your page.
+
+Adding notes: You can use comments to add notes to yourself or other collaborators about specific parts of your code.
+
+3.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple example of an HTML document.</p>
+    <hr>
+    <br>
+</body>
+</html>
+
+4.
+Tag and Element with Example:
+
+In HTML, a tag is a keyword surrounded by angle brackets (<>) that defines the start and end of an element. An element is a complete unit of content that includes a tag and its contents.
+
+5.
+DOCTYPE Declaration in HTML:
+
+The DOCTYPE declaration is a special code at the beginning of an HTML document that specifies the document type and version. This helps web browsers render the page correctly.
