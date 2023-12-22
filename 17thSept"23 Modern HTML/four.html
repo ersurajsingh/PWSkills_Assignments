@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Exploring HTML5 Features</h1>
+    </header>
+
+    <section>
+        <h2>Semantic Elements</h2>
+        <p>HTML5 introduces semantic elements that provide better structure and meaning to the content.</p>
+        <article>
+            <h3>&lt;header&gt; - Page Header</h3>
+            <p>The &lt;header&gt; element represents the header of a document or a section and can contain headings, logos, navigation, etc.</p>
+        </article>
+        <article>
+            <h3>&lt;article&gt; - Article Content</h3>
+            <p>The &lt;article&gt; element represents a self-contained piece of content that could be distributed and reused independently.</p>
+        </article>
+        <article>
+            <h3>&lt;footer&gt; - Page Footer</h3>
+            <p>The &lt;footer&gt; element represents the footer of a document or a section and can contain metadata, copyright information, etc.</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Audio and Video Support</h2>
+        <p>HTML5 provides native support for embedding audio and video without the need for third-party plugins.</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+        <video controls width="400">
+            <source src="https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section>
+        <h2>Canvas Element</h2>
+        <p>The &lt;canvas&gt; element allows dynamic rendering of graphics and images directly within the browser.</p>
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+        <script>
+            var canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext("2d");
+            context.fillStyle = "green";
+            context.fillRect(10, 10, 150, 80);
+        </script>
+    </section>
+
+</body>
+</html>
