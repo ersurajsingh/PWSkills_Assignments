@@ -3,3 +3,45 @@
 .external-style {
     color: purple;
 }
+
+/* styles.css */
+
+.paragraph--primary {
+    font-weight: bold;
+}
+
+.paragraph--secondary {
+    color: #3366cc;
+}
+
+.paragraph--tertiary {
+    font-style: italic;
+}
+
+/* form-styles.css */
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+#custom-color-section {
+    background-color: #ffeecc; /* Custom background color for this section */
+    opacity: 0.8; /* Applying opacity */
+}
+
+/* Define your custom color palette for form elements */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Additional styles for other form elements */
