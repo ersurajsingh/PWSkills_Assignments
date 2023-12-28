@@ -1,21 +1,4 @@
-nav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: rgba(31, 116, 196, 0.847);
-    padding: 10px;
-  }
-  
-  nav a {
-    color: #fff; /* white text */
-    padding: 10px 20px;
-    border-bottom: 2px solid #eee; /* light gray border */
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: #000;
-  }
+
   body {
     font-family: Arial, sans-serif;
     margin: 0;
