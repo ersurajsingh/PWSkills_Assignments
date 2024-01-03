@@ -14,3 +14,6 @@ Effect on Sibling Elements: Sibling elements in the normal flow of the document 
 
 
 In summary, relative positioning adjusts an element's position based on its normal flow, whereas absolute positioning removes an element from the normal flow and positions it relative to a specified ancestor or the initial containing block. The choice between these positioning methods depends on the desired layout and interaction with other elements on the page.
+
+
+z-index is a CSS property that controls the stacking order of positioned elements along the z-axis (depth) in a webpage. It is used to specify the visual depth or layering of an element concerning other elements. Elements with higher z-index values appear on top of elements with lower z-index values.
