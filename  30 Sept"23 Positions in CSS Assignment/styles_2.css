@@ -1,0 +1,16 @@
+.card {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card_image {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card_body{
+    overflow: hidden;
+}
